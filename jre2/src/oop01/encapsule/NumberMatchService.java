@@ -1,4 +1,4 @@
-package oop01.game;
+package oop01.encapsule;
 
 import java.util.Scanner;
 
@@ -33,7 +33,7 @@ public void input(){
 		
   }
 
-public void check(int i){
+	public void check(int i){
 		
 	  for( ; i<3;i++){
 		if(this.result == 1){

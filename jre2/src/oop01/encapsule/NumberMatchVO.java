@@ -1,9 +1,9 @@
-package oop01.game;
+package oop01.encapsule;
 
 public class NumberMatchVO {
 	  private int player;
 	  private int com;
-	  private int count;
+	  private int count = 3;
 	  private int result;
 
 	  public void setPlayer(int player) {
@@ -29,12 +29,12 @@ public class NumberMatchVO {
 			int result;
 			//int count = 0;
 			if (getPlayer() == getCom()) {
-				++this.count;
+			   --this.count;
 				System.out.println(getPlayer() + "정답 !! ");
 				System.out.println(this.count+"번 남았습니다.");
 				result = 1; //return 1
 			} else {
-				++this.count;
+				--this.count;
 				System.out.println("틀렷습니다. ");
 				System.out.println("컴퓨터가 선택한 값은 " + getCom() + "입니다. ");
 				System.out.println(this.count+"번 남았습니다.");

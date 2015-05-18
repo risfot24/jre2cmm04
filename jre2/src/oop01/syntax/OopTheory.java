@@ -1,4 +1,4 @@
-package oop01.encapsule;
+package oop01.syntax;
 /*
 //단답형 대응 방법?
 //물어보면..

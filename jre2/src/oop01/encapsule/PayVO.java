@@ -1,12 +1,15 @@
 package oop01.encapsule;
 
 public class PayVO {
+	static final double tax = 0.1;// ½ºÅÂÆ½ º¯¼ö?
 	private int salary ;
 	private String name;
 	private double income ;
-	static final double tax = 0.1;
+	/*
+	  
 	
-
+	
+    * */
 	//
 	public void setSalary(int salary) {
 	this.salary = salary;

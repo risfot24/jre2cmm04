@@ -1,6 +1,6 @@
 package oop01.syntax;
 
-public class Bicycle {
+public class Bicycle { 
 	private int cadence;
 	private int gear;
 	private int speed;

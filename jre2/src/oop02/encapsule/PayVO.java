@@ -1,4 +1,4 @@
-package oop01.encapsule;
+package oop02.encapsule;
 
 public class PayVO {
 	static final double tax = 0.1;// 스태틱 변수?
